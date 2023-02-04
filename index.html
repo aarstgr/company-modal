@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script defer src="./index.js"></script> 
+    <title>Tamrin Modal</title>    
+   </head>
+   
+   <body class="header">
+
+   
+      <div class="circle">
+        <img src="assets/img/avatar-1.jfif" class=" profile-pic" style="width:100% ; " id="profile">
+      </div>
+      <img src="assets/img/logo.png" id="selected-logo" style="position:absolute; left: 30rem; top: 38rem; border-radius: 3rem; width: 12rem;" >
+    
+<div class="parent1">
+    <h1 style="font-size:4rem ;font-weight: bold;line-height: 8rem;" id="text1" >PHIL Janet anderson</h1>
+    <p style="font-size:3rem ;font-weight: bold;">sales represantative</p>
+    <br>
+</div>
+<div class="parent2 " >
+    <p><img src="assets/img/call.png" alt="" > +123-456-789</p>
+    <hr>
+    <p><img src="assets/img/Email.png" alt="" >Hello@reallygreatsite.com</p>
+    <hr>
+    <p><img src="assets/img/site.png" alt="" >www.reallygreatsite.com</p>
+    <hr>
+    <p><img src="assets/img/location.png" alt="" >123 AnyWhere st,Any City,st 1234</p>
+</div>
+    <button class="Btn" id="Btn">My Input</button>
+   </header>
+    <!-- The Modal -->
+    <div id="myModal" class="modal container">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 style="font-weight:bolder;">Choose Your Prefers</h1>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+            <form>
+              <br>
+              <input type="color" id="colorInput">
+            <br>
+            Enter her/his Name : <input id ="Name" class="name " >
+            <br/><br>
+            <span class="d-flex  justify-content-around ">
+            <label class="avatar" id="avatar1">
+              <img src="assets/img/avatar-1.jfif" id="pic">
+               <input type="radio" id="radiobox" name="radiobox">
+            </label>
+            <label class="avatar" id="avatar2">
+              <img src="assets/img/avatar-2.jfif" id="pic">
+              <input type="radio" id="radiobox" name="radiobox">
+            </label>
+            <label class="avatar" id="avatar3">
+              <img src="assets/img/avatar-3.jfif" id="pic">
+              <input type="radio" id="radiobox" name="radiobox">
+            </label>
+            <label class="avatar" id="avatar4">
+              <img src="assets/img/avatar-4.jfif" id="pic">
+              <input type="radio" id="radiobox" name="radiobox">
+            </label>
+            <label class="avatar" id="avatar5">
+              <img src="assets/img/avatar-5.jfif" id="pic">
+              <input type="radio" id="radiobox" name="radiobox">
+            </label> 
+            <br>
+            <div class="d-flex gap-5 " style="border:solid 0.1rem rgba(0, 0, 0, 0.124); border-radius: 4rem; padding: 2rem; margin: 5rem;">
+              <h4 style="font-weight:bold ;">logos</h4>
+            <label  id="avatar4">
+              <img src="assets/img/logo.png" id="first-logo" style="width:7rem; height:7rem; border:solid 0.1rem rgba(0, 0, 0, 0.124); border-radius: 4rem;">
+              <input type="radio" id="logobox" name="logobox">
+            </label>
+            <label  id="avatar5">
+              <img src="assets/img/logo2.jfif" id="second-logo" style="width:7rem; height:7rem; border:solid 0.1rem rgba(0, 0, 0, 0.124); border-radius: 4rem;">
+              <input type="radio" id="logobox" name="logobox">
+            </label>
+           </div>
+        </span>
+        <br>
+       
+            </form>
+          <br>
+        </div>
+        <div class="modal-footer">
+          <button class="saveBtn" id ="saveButton"> Save</button>
+        </div>
+      </div>
+    
+    </div>  
+
+   </body>
+</html>
+
+
+
